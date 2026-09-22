@@ -15,8 +15,18 @@ items:
   target: "/projets/"
   kind: page
   new_tab: false
-  children: []
-  descendants_targets: []
+  children:
+  - title: Cartes postales
+    slug: cartes-postales
+    target: "/projets/cartes-postales/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/projets/cartes-postales"
+    file: content/fr/pages/projets/cartes-postales/_index.html
+  descendants_targets:
+  - "/projets/cartes-postales/"
   path: "/projects"
   file: content/fr/projects/_index.html
 - title: Personnes
