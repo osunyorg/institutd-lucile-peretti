@@ -1,8 +1,8 @@
 ---
 title: Menu principal
 items:
-- title: Fichiers
-  slug: fichiers
+- title: Contact
+  slug: contact
   target: "/fichiers/"
   kind: page
   new_tab: false
@@ -28,13 +28,4 @@ items:
   descendants_targets: []
   path: "/persons"
   file: content/fr/persons/_index.html
-- title: Organisations
-  slug: organisations
-  target: "/organisations/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/organizations"
-  file: content/fr/organizations/_index.html
 
